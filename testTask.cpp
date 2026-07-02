@@ -274,7 +274,7 @@ void generate::generateCode(const parsedSystem& ps, const std::string& filename)
 
 	osh << "\n";
 
-	osh << "#include <stddef.h> << std::endl";
+	osh << "#include <stddef.h>" << std::endl;
 
 	osh << "\n";
 
